@@ -1,12 +1,48 @@
-# React + Vite
+# 🍰 Tienda de Repostería — Clase 08
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Versión del proyecto para la Clase 08. Contiene una SPA con React + Vite que muestra productos y permite ver detalles.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Autor
+- Damian Olaso
+- Email: damianolaso@gmail.com
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧭 Estructura importante
+- `public/data/products.json` — datos de productos.
+- `public/images/` — imágenes de productos (actualmente hay varias imágenes reales y placeholders).
+- `src/components/` — componentes: `Nav`, `ItemList`, `ItemDetail`, `Item`, `Header`, `Footer`, etc.
+
+---
+
+## 🚀 Cómo ejecutar
+1. Instala dependencias:
+
+```powershell
+npm install
+```
+
+2. Levanta el servidor de desarrollo:
+
+```powershell
+npm run dev
+```
+
+3. Abre `http://localhost:5173/` en tu navegador.
+
+---
+
+## 🖼️ Imágenes
+Las imágenes se encuentran en `public/images/`. Si quieres reemplazarlas, copia tus imágenes en esa carpeta y actualiza `public/data/products.json` con las rutas correctas.
+
+---
+
+## 🎨 Estilos
+- `src/components/Nav/Nav.css` — barra de navegación.
+- `src/components/Item/Item.css` — estilos de las tarjetas de producto.
+
+---
+
+Si querés que adapte el diseño, optimice imágenes o añada filtros, lo hago.
