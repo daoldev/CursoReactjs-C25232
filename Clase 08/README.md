@@ -1,6 +1,6 @@
-# 🍰 Tienda de Repostería — Clase 08
+# 🍰 Tienda de Comida — Clase 08
 
-Versión del proyecto para la Clase 08. Contiene una SPA con React + Vite que muestra productos y permite ver detalles.
+Versión del proyecto para la Clase 08. Contiene una SPA con React + Vite que muestra productos, permite ver detalles y sumar al carrito.
 
 ---
 
@@ -12,7 +12,7 @@ Versión del proyecto para la Clase 08. Contiene una SPA con React + Vite que mu
 
 ## 🧭 Estructura importante
 - `public/data/products.json` — datos de productos.
-- `public/images/` — imágenes de productos (actualmente hay varias imágenes reales y placeholders).
+- `public/images/` — imágenes de productos (actualmente posee varias imágenes reales).
 - `src/components/` — componentes: `Nav`, `ItemList`, `ItemDetail`, `Item`, `Header`, `Footer`, etc.
 
 ---
@@ -31,18 +31,4 @@ npm run dev
 ```
 
 3. Abre `http://localhost:5173/` en tu navegador.
-
 ---
-
-## 🖼️ Imágenes
-Las imágenes se encuentran en `public/images/`. Si quieres reemplazarlas, copia tus imágenes en esa carpeta y actualiza `public/data/products.json` con las rutas correctas.
-
----
-
-## 🎨 Estilos
-- `src/components/Nav/Nav.css` — barra de navegación.
-- `src/components/Item/Item.css` — estilos de las tarjetas de producto.
-
----
-
-Si querés que adapte el diseño, optimice imágenes o añada filtros, lo hago.
