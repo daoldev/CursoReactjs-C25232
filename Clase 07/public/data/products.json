@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "name": "Budin de limon",
+        "price": 4500,
+        "category": "Dulce",
+        "description": "Budin casero de limon con glaseado",
+        "imageUrl": "/images/budin-de-limon.png"
+    },
+    {
+        "id": "2",
+        "name": "Pan de masa madre",
+        "price": 3200,
+        "category": "Salado",
+        "description": "Pan artesanal de masa madre",
+        "imageUrl": "/images/pan-masa-madre.png"
+    },
+    {
+        "id": "3",
+        "name": "Croissant",
+        "price": 1200,
+        "category": "Dulce",
+        "description": "Croissant frances con manteca",
+        "imageUrl": "/images/croissant.png"
+    }
+]
